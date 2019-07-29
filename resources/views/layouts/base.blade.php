@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{@yield('title','로우무브의 메모장')}}</title>
+        <title>@yield('title','로우무브의 메모장')</title>
 
         <!-- global css, js -->
         <link href="{{asset('/global/css/bootstrap-grid.min.css')}}" rel="stylesheet">
