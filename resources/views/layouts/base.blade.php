@@ -16,7 +16,7 @@
     </head>
     <body>
         @yield('header')
-        @yield('content')
+        @yield('section')
         @yield('footer')
     </body>
 </html>
