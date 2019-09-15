@@ -1,6 +1,11 @@
-@extends('layouts.base')
+@extends('layouts.master')
 @section('section')
 <div class="container">
-    @include('top-nav')
+    @include('index.carousel')
+    <div class="row">
+        <div class="col">
+            @include('fragment-view.top-media-list')
+        </div>
+    </div>
 </div>
 @endsection
