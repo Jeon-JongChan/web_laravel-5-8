@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/archive', function () {
+    return view('archive');
+});
+Route::get('/archive/list/all', function () {
+    return view('archive-list');
+});
+Route::get('/archive/episode', function () {
+    return view('archive-episode');
+});
