@@ -31,6 +31,6 @@ class YoutubeMovie extends Command
     {
         $client = new Client();
         $url = $protocol.$description;
-        $document = $client->request
+        $document = $client->request;
     }
 }
