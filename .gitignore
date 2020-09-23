@@ -12,3 +12,4 @@ yarn-error.log
 tests
 composer.lock
 package-lock.json
+public
